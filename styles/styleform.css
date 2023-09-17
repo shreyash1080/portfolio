@@ -1,0 +1,55 @@
+
+
+body {
+    background-image:  url(stud.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    z-index: -1;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color: white
+  
+}
+
+.Contact{
+    background-color: #1b1e36;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    font-weight: 500;
+    font-size: 30px;
+    color: aliceblue;
+    margin: 0 auto;
+}
+
+
+.inputFromUser{
+    
+    display: flex;
+    flex-direction: column;
+    column-gap: 100px;    
+    margin-bottom: 10px;
+
+}
+
+input{
+    margin-bottom: 20px;
+}
+
+textarea{
+    width: 325px;
+    margin-bottom: 20px;
+}
+
+.button{
+    width: 300px;
+    height: 30px;
+    color: white;
+    background-color:  rgb(55, 175, 101);
+    border: none;
+}
