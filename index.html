@@ -110,25 +110,22 @@
                       <form action="mailto:shreyashchougule1080@gmail.com" method="post" enctype="text/plain">
                       
                       
-                      <div class="finputsec">
-                        <label>Your Name:</label>
-                      <input type="text" 
-                             name="your Name" 
-                             value=""
-                             placeholder="name"><br>
-                      <label >Your Email: </label>
-                      <input type="email" 
-                            name="Your email"
-                             value=""
-                             placeholder="example@eamil.com"
-                             ><br>
-                            </div>
-                      <label class="yourMes">Your Message</label><br>
-                      <textarea 
-                      name="Your Message" 
-                      rows="8" cols="80"
-                      placeholder="   Hi!, ..."
-                      ></textarea><br>
+                        <div class="finputsec">
+                          <label for="yourName">Your Name:</label>
+                          <input type="text" id="yourName" name="yourName" value="" placeholder="Name"><br>
+                          
+                          <label for="yourEmail">Your Email:</label>
+                          <input type="email" id="yourEmail" name="yourEmail" value="" placeholder="example@email.com"><br>
+                        </div>
+                        
+                        <label class="yourMes" for="yourMessage">Your Message</label><br>
+                        <textarea 
+                          id="yourMessage"
+                          name="yourMessage" 
+                          rows="8" 
+                          cols="80"
+                          placeholder="Hi!, ..."
+                        ></textarea><br>
                       <input type="submit" name="" class="button-submit"><br>
                   </div>        
             </div>
