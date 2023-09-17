@@ -349,3 +349,27 @@ textarea {
 .inputFromUser textarea {
     margin: 30px;
 }
+
+@media (max-width: 576px) {
+  
+    body {
+        width: 100%; /* Adjust video width for smaller screens */
+    }
+}.smoke {
+    position: relative;
+    width: 100%; /* Set the width to 100% to ensure the video spans the container */
+}
+
+.smoke video {
+    width: 100%; /* Ensure the video fills the "smoke" container */
+    height: auto; /* Maintain the video's aspect ratio */
+}
+
+.smoke section {
+    position: relative;
+    height: 100%; /* Set the height to 100% to match the video's height */
+}
+
+.smoke h1 {
+    /* Your existing styles for the h1 element */
+}
